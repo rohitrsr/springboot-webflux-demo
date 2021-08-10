@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.roh.webflux.dto.ProductDto;
 import com.roh.webflux.service.ProductService;
+import com.roh.webflux.utils.AppUtils;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -53,6 +54,11 @@ public class ProductController {
 	@DeleteMapping("/delete/{id}")
 	public Mono<Void> deleteProduct(@PathVariable("id") String id) {
 		return productService.deleteProduct(id);
+	}
+	
+	@GetMapping("/name")
+	public Mono<ProductDto> getProductByName(@RequestParam("name") String name) {
+		return productService.getProductByName(name);
 	}
 	
 
