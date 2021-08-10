@@ -42,4 +42,8 @@ public class ProductService {
 		return productRepo.deleteById(id);
 	}
 
+	public Mono<ProductDto> getProductByName(String name) {
+		return productRepo.findByName(name);
+	}
+
 }
