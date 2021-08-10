@@ -1,0 +1,133 @@
+2021-08-10 10:20:15.629  INFO 9664 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : Starting SpringbootWebfluxDemoApplication using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 9664 (/home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo/target/classes started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 10:20:15.636  INFO 9664 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : No active profile set, falling back to default profiles: default
+2021-08-10 10:20:16.517  INFO 9664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-08-10 10:20:16.788  INFO 9664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 263 ms. Found 1 Reactive MongoDB repository interfaces.
+2021-08-10 10:20:17.456  INFO 9664 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-08-10 10:20:17.676  INFO 9664 --- [cluster-rtt-ClusterId{value='61120589ced4f03153a5a8b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2021-08-10 10:20:17.679  INFO 9664 --- [cluster-ClusterId{value='61120589ced4f03153a5a8b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+2021-08-10 10:20:17.679  INFO 9664 --- [cluster-ClusterId{value='61120589ced4f03153a5a8b9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=102273482}
+2021-08-10 10:20:18.364  INFO 9664 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8081
+2021-08-10 10:20:18.378  INFO 9664 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : Started SpringbootWebfluxDemoApplication in 3.299 seconds (JVM running for 4.547)
+2021-08-10 10:26:05.994  INFO 9664 --- [nioEventLoopGroup-3-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:15}] to localhost:27017
+2021-08-10 10:36:46.617  INFO 9664 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-08-10 10:36:46.637  INFO 9664 --- [RMI TCP Connection(27)-127.0.0.1] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:15}] to localhost:27017 because the pool has been closed.
+2021-08-10 10:36:52.852  INFO 11178 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : Starting SpringbootWebfluxDemoApplication using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 11178 (/home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo/target/classes started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 10:36:52.855  INFO 11178 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : No active profile set, falling back to default profiles: default
+2021-08-10 10:36:53.439  INFO 11178 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-08-10 10:36:53.587  INFO 11178 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 Reactive MongoDB repository interfaces.
+2021-08-10 10:36:54.114  INFO 11178 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-08-10 10:36:54.300  INFO 11178 --- [cluster-rtt-ClusterId{value='6112096eeabe9a47676fe590', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+2021-08-10 10:36:54.301  INFO 11178 --- [cluster-ClusterId{value='6112096eeabe9a47676fe590', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+2021-08-10 10:36:54.302  INFO 11178 --- [cluster-ClusterId{value='6112096eeabe9a47676fe590', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=84609765}
+2021-08-10 10:36:54.911  INFO 11178 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8081
+2021-08-10 10:36:54.923  INFO 11178 --- [main] c.r.w.SpringbootWebfluxDemoApplication   : Started SpringbootWebfluxDemoApplication in 2.579 seconds (JVM running for 3.492)
+2021-08-10 10:37:02.475  INFO 11178 --- [nioEventLoopGroup-3-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:41}] to localhost:27017
+2021-08-10 11:37:41.389  INFO 15702 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 15702 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:37:41.397  INFO 15702 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:37:43.429  INFO 15702 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.718 seconds (JVM running for 4.227)
+2021-08-10 11:44:01.332  INFO 15942 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 15942 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:44:01.337  INFO 15942 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:44:03.377  INFO 15942 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.687 seconds (JVM running for 4.213)
+2021-08-10 11:45:14.001  INFO 16070 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 16070 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:45:14.007  INFO 16070 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:45:16.168  INFO 16070 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.808 seconds (JVM running for 4.279)
+2021-08-10 11:45:16.474 ERROR 16070 --- [main] o.s.t.w.reactive.server.ExchangeResult   : Request details for assertion failure:
+
+> POST /products
+> WebTestClient-Request-Id: [1]
+> Content-Type: [application/json]
+> Content-Length: [22]
+
+{"scanAvailable":true}
+
+< 405 METHOD_NOT_ALLOWED Method Not Allowed
+< Content-Type: [application/json]
+< Content-Length: [129]
+
+{"timestamp":"2021-08-10T06:15:16.431+00:00","path":"/products","status":405,"error":"Method Not Allowed","requestId":"38c02716"}
+
+2021-08-10 11:46:02.281  INFO 16187 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 16187 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:46:02.287  INFO 16187 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:46:04.493  INFO 16187 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 3.019 seconds (JVM running for 4.657)
+2021-08-10 11:52:04.515  INFO 16698 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 16698 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:52:04.522  INFO 16698 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:52:06.373  INFO 16698 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.527 seconds (JVM running for 4.373)
+2021-08-10 11:58:03.563  INFO 17188 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 17188 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 11:58:03.579  INFO 17188 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 11:58:06.401  INFO 17188 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 3.692 seconds (JVM running for 5.58)
+2021-08-10 12:30:14.637  INFO 18717 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 18717 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 12:30:14.649  INFO 18717 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 12:30:17.235  INFO 18717 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 3.386 seconds (JVM running for 5.054)
+2021-08-10 12:30:17.553 ERROR 18717 --- [main] o.s.t.w.reactive.server.ExchangeResult   : Request details for assertion failure:
+
+> GET products/102
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 404 NOT_FOUND Not Found
+< Content-Type: [application/json]
+< Content-Length: [122]
+
+{"timestamp":"2021-08-10T07:00:17.457+00:00","path":"products/102","status":404,"error":"Not Found","requestId":"bdc843f"}
+
+2021-08-10 12:33:44.523  INFO 18983 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 18983 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 12:33:44.530  INFO 18983 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 12:33:46.448  INFO 18983 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.599 seconds (JVM running for 4.081)
+2021-08-10 12:33:46.689 ERROR 18983 --- [main] o.s.t.w.reactive.server.ExchangeResult   : Request details for assertion failure:
+
+> GET products/102
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 404 NOT_FOUND Not Found
+< Content-Type: [application/json]
+< Content-Length: [123]
+
+{"timestamp":"2021-08-10T07:03:46.595+00:00","path":"products/102","status":404,"error":"Not Found","requestId":"64f76b44"}
+
+2021-08-10 12:41:17.705  INFO 19421 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 19421 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 12:41:17.715  INFO 19421 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 12:41:19.731  INFO 19421 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.679 seconds (JVM running for 4.088)
+2021-08-10 12:41:19.991 ERROR 19421 --- [main] o.s.t.w.reactive.server.ExchangeResult   : Request details for assertion failure:
+
+> GET products/102
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 404 NOT_FOUND Not Found
+< Content-Type: [application/json]
+< Content-Length: [123]
+
+{"timestamp":"2021-08-10T07:11:19.911+00:00","path":"products/102","status":404,"error":"Not Found","requestId":"7d1ec1be"}
+
+2021-08-10 12:45:10.725  INFO 19693 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 19693 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 12:45:10.731  INFO 19693 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 12:45:12.642  INFO 19693 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.519 seconds (JVM running for 3.939)
+2021-08-10 12:45:12.910 ERROR 19693 --- [main] o.s.t.w.reactive.server.ExchangeResult   : Request details for assertion failure:
+
+> GET products/102
+> WebTestClient-Request-Id: [1]
+
+No content
+
+< 404 NOT_FOUND Not Found
+< Content-Type: [application/json]
+< Content-Length: [123]
+
+{"timestamp":"2021-08-10T07:15:12.821+00:00","path":"products/102","status":404,"error":"Not Found","requestId":"54832b67"}
+
+2021-08-10 12:47:45.641  INFO 19908 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 19908 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 12:47:45.646  INFO 19908 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 12:47:47.969  INFO 19908 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.913 seconds (JVM running for 4.519)
+2021-08-10 13:02:29.193  INFO 20638 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 20638 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 13:02:29.212  INFO 20638 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 13:02:31.667  INFO 20638 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 3.323 seconds (JVM running for 5.05)
+2021-08-10 13:28:39.139  INFO 22658 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 22658 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 13:28:39.148  INFO 22658 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 13:28:41.380  INFO 22658 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 3.074 seconds (JVM running for 4.72)
+2021-08-10 13:30:10.956  INFO 22864 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Starting SpringbootWebfluxDemoApplicationTests using Java 15.0.1 on ctp-VivoBook-ASUS-Laptop-X509UA with PID 22864 (started by ctp in /home/ctp/Documents/sts-4.9.0.RELEASE/springboot-webflux-demo)
+2021-08-10 13:30:10.972  INFO 22864 --- [main] .w.SpringbootWebfluxDemoApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-10 13:30:13.044  INFO 22864 --- [main] .w.SpringbootWebfluxDemoApplicationTests : Started SpringbootWebfluxDemoApplicationTests in 2.796 seconds (JVM running for 4.649)
